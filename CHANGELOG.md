@@ -2,6 +2,17 @@
 
 ## [Unreleased]
 
+- Refined contrast in certain cases to better align with the main background.
+- Clean up `pluginIcon.svg` (remove unused namespace, simplify structure)
+- Minor project fixes.
+
+## [6.2.3]
+
+- Require minimum IntelliJ Platform 2025.3 (build 253); versions <=2025.2 do not support Islands themes
+- Remove unsupported `Checkbox.Focus.Thin.*.Dark` keys in Islands themes
+- Fix deprecated checkbox color keys in Islands themes
+- Set `inactiveAlpha` and `inactiveAlphaInStatusBar` to `0` on Windows for Islands themes ([#393](https://github.com/one-dark/jetbrains-one-dark-theme/issues/393))
+
 ## [6.2.2]
 
 - Fix toolbar color for Islands theme
@@ -198,7 +209,6 @@
   - You can now customize your theme's font settings using the `One Dark Theme` in the settings menu located at: `Preferences | Appearance & Behavior | One Dark Theme`
   - Font settings can be `Regular`, `Bold`, `Italic`, or `Bold Italic`.
   - You can also choose between the `Vivid` and `Regular` color One Dark color palette.
-
 - HTML Attributes can now be: `Regular`, `Bold`, `Italic`, or `Bold Italic`.
 
 ## [3.3.6]
@@ -439,7 +449,10 @@ Thanks @tulongxCodes for the report of this issue!
 - Publish using Travis CI
 - Add JARs to GitHub releases for manual installation
 
-[Unreleased]: https://github.com/one-dark/jetbrains-one-dark-theme/compare/v6.1.0...HEAD
+[Unreleased]: https://github.com/one-dark/jetbrains-one-dark-theme/compare/v6.2.3...HEAD
+[6.2.3]: https://github.com/one-dark/jetbrains-one-dark-theme/compare/v6.2.2...v6.2.3
+[6.2.2]: https://github.com/one-dark/jetbrains-one-dark-theme/compare/v6.2.1...v6.2.2
+[6.2.1]: https://github.com/one-dark/jetbrains-one-dark-theme/compare/v6.1.0...v6.2.1
 [6.1.0]: https://github.com/one-dark/jetbrains-one-dark-theme/compare/v6.0.0...v6.1.0
 [6.0.0]: https://github.com/one-dark/jetbrains-one-dark-theme/compare/v5.15.0...v6.0.0
 [5.15.0]: https://github.com/one-dark/jetbrains-one-dark-theme/compare/v5.14.0...v5.15.0
